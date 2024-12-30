@@ -1,0 +1,346 @@
+//reset slick slider css
+.slick-prev {
+    border: 1px solid green !important;
+    left: -10px !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background-color: green !important;
+
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #eceaea !important;
+    }
+}
+
+.slick-next {
+    border: 1px solid green !important;
+    right: -10px !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background-color: green !important;
+
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #eceaea !important;
+    }
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: FontAwesome !important;
+    color: red !important;
+    //   content: "\f060" !important;
+}
+
+.section-share {
+    &.section-specialty {
+        // background: #f5f5f5;
+    }
+
+    &.section-outstanding-doctor {
+        background-image: url('../../assets/background_home.png');
+    }
+
+    .section-body {
+        .section-customize {
+            .bg-image {
+                width: 321px;
+                height: 281px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #eee;
+
+                &.section-specialty {
+                    // background-image: url("../.././assets/specialty/co-xuong-khop.jpg");
+                }
+
+                &.section-medical-facility {
+                    // background-image: url("../.././assets/medical-facility/benh-vien-cho-ray.jpg");
+                }
+
+                &.section-outstanding-doctor {
+                    // background-image: url("../.././assets/outstanding-doctor/anh-dai-dien-bs.jpg");
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+
+                &.section-handbook {
+                    background-image: url('../.././assets/handbook/may-do-huyet-ap-bap-tay.jpg');
+                }
+            }
+        }
+    }
+}
+
+.section-share {
+    // height: 431px;
+
+    .section-container {
+        margin: 0 100px;
+        display: flex;
+        flex-direction: column;
+
+        .section-header {
+            height: 60px;
+            margin-bottom: 8px;
+            padding-top: 30px;
+
+            .title-section {
+                font-size: 22px;
+                font-weight: 600;
+            }
+            .btn-section {
+                float: right;
+                text-decoration: none;
+                padding: 10px 10px;
+                background-color: #daf3f6;
+                border-radius: 20px;
+                color: #34929e;
+                font-weight: 600;
+                border: honeydew;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.section-outstanding-doctor {
+    .outer-bg {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .section-customize {
+        padding: 5px;
+        cursor: pointer;
+
+        .customize-border {
+            border: 1px solid orange;
+            padding: 20px;
+        }
+    }
+}
+
+// .home-footer {
+//     text-align: center;
+//     padding-top: 8px;
+//     a {
+//         text-decoration: unset;
+//     }
+// }
+
+.section-about {
+    padding: 0 100px;
+    height: 460px !important;
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    background-image: url('../../assets/background_home.png');
+
+    .section-about-header {
+        padding: 20px 0px !important;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .section-about-content {
+        display: flex;
+        gap: 15px;
+        width: 100%;
+        .content-left {
+            width: 60%;
+        }
+        .content-right {
+            width: 40%;
+            p {
+                text-align: justify;
+                font-style: italic;
+                padding-top: 15px;
+            }
+        }
+    }
+}
+
+.home__section_content {
+    margin: 20px 0 40px;
+
+    .home__section_content_container {
+        height: 330px;
+        text-align: center;
+        padding: 5px 15px 0;
+
+        .home__section_content_item {
+            // border: 2px solid #f1f1f1;
+            cursor: pointer;
+            border-radius: 30px;
+            height: 97%;
+            padding: 5px;
+            display: block;
+            box-sizing: border-box;
+            transition: all 0.3s;
+
+            &:hover {
+                box-shadow: 0 4.5px 13px #01499e59;
+                background-color: #fff;
+            }
+
+            .home__section_content_item_img {
+                display: flex;
+                justify-content: center;
+                margin-top: 18px;
+                img {
+                    width: 220px;
+                    height: 200px;
+                    border-radius: 50%;
+                    box-shadow: 0 4px 7px 0px rgb(181 234 255 / 61%);
+                    object-fit: cover;
+                }
+            }
+
+            .home__section_content_item_title {
+                margin-top: 40px;
+                h3 {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    .slick-prev,
+    .slick-next {
+        border: 1px solid #b5e7ed !important;
+        border-radius: 10px;
+    }
+
+    .slick-prev::before {
+        // margin-left: -50px;
+        // font-size: 45px;
+        color: #34929e !important ;
+    }
+
+    .slick-next::before {
+        // margin-left: 15px;
+        // font-size: 45px;
+        color: #34929e !important;
+    }
+}
+.home__medical_content {
+    margin: 20px 0 40px;
+
+    .home__medical_content_container {
+        height: 390px;
+        text-align: center;
+        padding: 5px 15px 0;
+
+        .home__medical_content_item {
+            border: 2px solid #f1f1f1;
+            cursor: pointer;
+            border-radius: 30px;
+            height: 97%;
+            padding: 5px;
+            display: block;
+            box-sizing: border-box;
+            transition: all 0.3s;
+
+            &:hover {
+                box-shadow: 0 4.5px 13px #01499e59;
+                background-color: #fff;
+            }
+
+            .home__medical_content_item_img {
+                display: flex;
+                justify-content: center;
+                margin-top: 18px;
+                img {
+                    width: 260px;
+                    height: 200px;
+                    object-fit: cover;
+                    border-radius: 10px;
+                    // box-shadow: 0px 7px 8px 2px rgba(196, 210, 216, 0.61);
+                }
+            }
+
+            .home__medical_content_item_title {
+                margin-top: 40px;
+                min-height: 46px;
+                h3 {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    .slick-prev,
+    .slick-next {
+        border: 1px solid #b5e7ed !important;
+        border-radius: 10px;
+    }
+
+    .slick-prev::before {
+        color: #34929e !important ;
+    }
+
+    .slick-next::before {
+        color: #34929e !important;
+    }
+    .home__medical_content_item_adress {
+        display: flex;
+
+        svg {
+            font-size: 18px;
+            margin-left: -3px;
+            flex-shrink: 0;
+        }
+
+        p {
+            height: 42px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            text-overflow: ellipsis;
+        }
+    }
+}
+.home__media_content {
+    .ratio {
+        border-radius: 25px;
+        overflow: hidden;
+        height: 100%;
+        iframe {
+            border-radius: inherit; // Apply the same border-radius to the iframe
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .home__media_content_channel {
+        width: 100%;
+        height: 68px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        margin-top: 16px;
+        img {
+            width: 164px;
+            height: 39px;
+            object-fit: contain;
+        }
+    }
+    .col-lg-6 .row:first-child .home__media_content_channel {
+        margin-top: 0;
+    }
+}
